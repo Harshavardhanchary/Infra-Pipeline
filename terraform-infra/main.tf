@@ -1,6 +1,6 @@
 resource "aws_instance" "Through-github-actions" {
   ami           = "ami-02b8269d5e85954ef"
-  key_name      = "First-Key"
+  key_name      = "First-key"
   instance_type = "m7i-flex.large"
 }
 
